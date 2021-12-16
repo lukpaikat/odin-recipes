@@ -4,17 +4,19 @@
 
 body {
   background-color: rgb(54, 54, 54);
+  color: white;
+  font-family: var(--Comfortaa);
+  line-height: 1.2;
 }
 
 .wrapper {
-  padding: 1em;
-  background-color: #f7fbff;
+  padding: 1em 2em;
+  background-color: #322C5C;
   margin: 0 auto;
   max-width: 1000px;
 }
 
 .heading {
-  background-color: #e76f51;
   padding: 1em;
   border-radius: 5px;
 }
@@ -32,6 +34,7 @@ body {
   margin: auto;
   max-height: 320px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .list-anchor {
@@ -41,7 +44,17 @@ body {
   font-size: 1.25rem;
   padding: .5em;
   margin-bottom: .5em;
-  background-color: #2a9d8f;
+  background-color: #5D1A2D;
   margin-left: auto;
   margin-right: auto;
+}
+
+.article-container {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-items {
+  margin-bottom: .5em;
 }
