@@ -1,5 +1,9 @@
+:root {
+  --Comfortaa: 'Comfortaa', cursive;
+}
+
 body {
-  background-color: #264653;
+  background-color: rgb(54, 54, 54);
 }
 
 .wrapper {
@@ -16,7 +20,9 @@ body {
 }
 
 .title {
-  color: white;
+  font-family: var(--Comfortaa);
+  font-weight: 700;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -29,13 +35,13 @@ body {
 }
 
 .list-anchor {
-  color: #264653;
+  color: white;
   font-family: sans-serif;
   display: block;
   font-size: 1.25rem;
   padding: .5em;
   margin-bottom: .5em;
-  background-color: #f4a261;
+  background-color: #2a9d8f;
   margin-left: auto;
   margin-right: auto;
 }
