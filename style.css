@@ -37,17 +37,25 @@ body {
   border-radius: 10px;
 }
 
+
+
 .list-anchor {
-  color: white;
+  color: rgb(241, 241, 241);
   font-family: sans-serif;
   display: block;
   font-size: 1.25rem;
   padding: .5em;
   margin-bottom: .5em;
-  background-color: #5D1A2D;
+  border: 2px solid rgb(241, 241, 241);
+  border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
+}
+
+.list-anchor:focus,
+.list-anchor:hover {
+  text-decoration: underline;
 }
 
 .article-container {
