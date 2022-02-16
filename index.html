@@ -1,27 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
+<head>
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lora&family=Quattrocento&display=swap" rel="stylesheet">
   <title>Odin Recipes</title>
-</header>
+</head>
 
 <body>
   <div class="wrapper">
-    <div class="heading">
-      <h1 class="title">Odin Recipes</h1>
-    </div>
-    <img class="main-image" src="images/chef-g2eb4794ac_1280.png" alt="chefs">
-    <ul style="text-align: center; list-style-type: none; padding: 0;">
-      <li><a class="list-anchor" href="recipes/lasagna.html">Lasagna</a></li>
-      <li><a class="list-anchor" href="recipes/ramen-carbonara.html">Ramen Carbonara</a></li>
-      <li><a class="list-anchor" href="recipes/quick-quiche.html">Quick Quiche</a></li>
-    </ul>
+    <header class="heading">
+      <div class="title-background">
+        <h1 class="title">Odin Recipes</h1>
+        <hr>
+        <p class="sub-title">Hassle-free recipes for you</p>
+      </div>
+    </header>
+    <main>
+      <ul class="recipe-list" style="text-align: center; list-style-type: none; padding: 0;">
+        <li class="recipe-list-item">
+          <a class="list-anchor" href="recipes/lasagna.html">
+            <img class="recipe-list-image" src="./images/simply-traditional-lasagna-1.jpeg" alt="lasagna">
+            <div class="gradient">
+              <p>Lasagna</p>
+            </div>
+          </a>
+        </li>
+        <li class="recipe-list-item">
+          <a class="list-anchor" href="recipes/ramen-carbonara.html">
+            <img class="recipe-list-image" src="./images/ramen-carbonara.jpeg" alt="ramen carbonara">
+            <div class="gradient">
+              <p>Ramen carbonara</p>
+            </div>
+          </a>
+         </li>
+        <li class="recipe-list-item">
+          <a class="list-anchor" href="recipes/quick-quiche.html">
+            <img class="recipe-list-image" src="./images/quick-quiche.jpeg" alt="ramen carbonara">
+            <div class="gradient">
+              <p>Quick Quiche</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
   </div>
 </body>
 
